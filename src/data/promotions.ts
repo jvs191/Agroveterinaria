@@ -1,0 +1,40 @@
+import { Benefit } from '../types';
+
+export const INITIAL_BENEFITS: Benefit[] = [
+  {
+    id: 'ben-10off-raciones',
+    title: '10% OFF en Raciones Super Premium',
+    description: 'Válido para marcas Biofresh y Royal Canin en compras mayores a 15 kg.',
+    code: 'BIOFRESH10',
+    discount: '10% OFF',
+    expiryDate: '31/08/2026',
+    category: 'Mascotas',
+    pointsCost: 50,
+    isUnlocked: true,
+    iconName: 'Percent',
+  },
+  {
+    id: 'ben-envio-gratis-chuy',
+    title: 'Envío Gratis en Chuy / Chuí',
+    description: 'Despacho directo a tu hogar o establecimiento rural en el radio urbano.',
+    code: 'CHUYFREE',
+    discount: '$0 Envío',
+    expiryDate: '15/09/2026',
+    category: 'Logística',
+    pointsCost: 40,
+    isUnlocked: true,
+    iconName: 'Truck',
+  },
+  {
+    id: 'ben-descuento-agro',
+    title: '5% OFF en Línea Agro & Herramientas',
+    description: 'Beneficio exclusivo para clientes de la categoría VIP Agro.',
+    code: 'AGROVIP5',
+    discount: '5% OFF',
+    expiryDate: '30/10/2026',
+    category: 'Agro',
+    pointsCost: 120,
+    isUnlocked: false,
+    iconName: 'Award',
+  },
+];

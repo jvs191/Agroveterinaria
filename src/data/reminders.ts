@@ -1,0 +1,40 @@
+import { Reminder } from '../types';
+
+export const INITIAL_REMINDERS: Reminder[] = [
+  {
+    id: 'rem-ration-biofresh',
+    title: 'Reponer Ración Perro',
+    category: 'Mascotas',
+    productName: 'Biofresh Adultos Razas Medianas 15 kg',
+    productId: 'prod-biofresh-15',
+    dueDate: 'En 4 días (14 Ago)',
+    daysRemaining: 4,
+    status: 'Urgente',
+    actionText: 'Repetir pedido con 1 Clic',
+    image: 'https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'rem-dewormer-nexgard',
+    title: 'Dosis Antiparasitaria Mensual',
+    category: 'Mascotas',
+    productName: 'NexGard Spectra 15.1 - 30 kg',
+    productId: 'prod-nexgard-15-30',
+    dueDate: '15 de Setiembre',
+    daysRemaining: 35,
+    status: 'Próximo',
+    actionText: 'Ver producto',
+    image: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=800&q=80',
+  },
+  {
+    id: 'rem-cattle-ivermectina',
+    title: 'Revacunación / Desparasitacion Ganado',
+    category: 'Agro',
+    productName: 'Ivermectina 1% Inyectable Campo Verde 500 ml',
+    productId: 'prod-ivermectina-500',
+    dueDate: '1 de Octubre',
+    daysRemaining: 51,
+    status: 'Al Día',
+    actionText: 'Consultar por Lote',
+    image: 'https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=800&q=80',
+  },
+];

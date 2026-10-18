@@ -1,0 +1,6 @@
+{
+  "name": "Campo Verde Digital",
+  "description": "Ecosistema digital comercial para Agroveterinaria Campo Verde Chuy - Ecommerce, Asistente IA, Recompra y Panel Comercial",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
